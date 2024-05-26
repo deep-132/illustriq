@@ -1,3 +1,9 @@
+import Live from "@/components/Live";
+
 export default function Page() {
-  return <h1 className="text-5xl text-white">LiveBlocks Illustriq</h1>;
+  return (
+    <div>
+      <Live/>
+    </div>
+  );
 }
